@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ved Graphic - Name Plate, LED Board, Flex, CNC, 3D Work</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', Arial, sans-serif; }
+  body { background:#0f0f1a; color:#fff; }
+
+  header {
+    display:flex; justify-content:space-between; align-items:center;
+    padding:15px 40px; background:#15152b; position:sticky; top:0; z-index:100;
+    border-bottom:2px solid #ff6b00;
+  }
+  header h1 { color:#ff6b00; font-size:26px; }
+  nav a { color:#fff; text-decoration:none; margin-left:25px; font-weight:500; }
+  nav a:hover { color:#ff6b00; }
+
+  .hero {
+    text-align:center; padding:90px 20px;
+    background:linear-gradient(135deg,#1a1a3a,#0f0f1a);
+    border-bottom:3px solid #ff6b00;
+  }
+  .hero h2 { font-size:44px; margin-bottom:15px; }
+  .hero h2 span { color:#ff6b00; }
+  .hero p { font-size:19px; color:#ccc; margin-bottom:25px; }
+  .btn {
+    display:inline-block; padding:14px 32px; background:#ff6b00; color:#fff;
+    text-decoration:none; border-radius:8px; font-weight:bold; font-size:17px;
+    transition:0.3s;
+  }
+  .btn:hover { background:#ff8c33; transform:scale(1.05); }
+
+  .section { padding:60px 40px; text-align:center; }
+  .section h3 { font-size:32px; margin-bottom:40px; color:#ff6b00; }
+
+  .services {
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px; max-width:1100px; margin:0 auto;
+  }
+  .card {
+    background:#1a1a33; padding:30px 20px; border-radius:12px;
+    border:1px solid #2a2a4a; transition:0.3s;
+  }
+  .card:hover { border-color:#ff6b00; transform:translateY(-6px); }
+  .card .icon { font-size:40px; margin-bottom:12px; }
+  .card h4 { color:#ff6b00; margin-bottom:8px; font-size:20px; }
+  .card p { color:#bbb; font-size:14px; }
+
+  .gallery {
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px; max-width:1100px; margin:0 auto;
+  }
+  .gallery div {
+    height:170px; background:#1a1a33; border-radius:10px;
+    display:flex; align-items:center; justify-content:center;
+    color:#666; border:2px dashed #333;
+  }
+
+  .contact { background:#15152b; }
+  .contact-info { display:flex; flex-wrap:wrap; justify-content:center; gap:30px; margin-top:20px; }
+  .contact-info div { background:#1a1a33; padding:25px 35px; border-radius:10px; }
+  .contact-info div strong { display:block; color:#ff6b00; margin-bottom:6px; }
+
+  footer { text-align:center; padding:20px; background:#0a0a14; color:#666; font-size:14px; }
+
+  @media(max-width:600px){
+    header { flex-direction:column; gap:10px; padding:15px; }
+    nav a { margin:0 10px; font-size:14px; }
+    .hero h2 { font-size:30px; }
+    .section { padding:40px 15px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Ved Graphic</h1>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Ved <span>Graphic</span></h2>
+  <p>Name Plate • LED Board • Flex Printing • CNC Work • 3D Work</p>
+  <a href="https://wa.me/91XXXXXXXXXX" class="btn">WhatsApp पर संपर्क करें</a>
+</section>
+
+<section class="section" id="services">
+  <h3>हमारी सेवाएँ</h3>
+  <div class="services">
+    <div class="card"><div class="icon">🏠</div><h4>Name Plate</h4><p>घर और ऑफिस के लिए आकर्षक नेम प्लेट</p></div>
+    <div class="card"><div class="icon">💡</div><h4>LED Board</h4><p>दुकान और बिज़नेस के लिए LED साइन बोर्ड</p></div>
+    <div class="card"><div class="icon">🖨️</div><h4>Flex Printing</h4><p>हाई क्वालिटी फ्लेक्स बैनर और पोस्टर</p></div>
+    <div class="card"><div class="icon">⚙️</div><h4>CNC Work</h4><p>सटीक CNC कटिंग और डिज़ाइन</p></div>
+    <div class="card"><div class="icon">🎨</div><h4>3D Work</h4><p>3D लेटर, साइन और डिज़ाइन</p></div>
+    <div class="card"><div class="icon">✨</div><h4>Acrylic Work</h4><p>प्रीमियम एक्रिलिक नेम प्लेट और बोर्ड</p></div>
+  </div>
+</section>
+
+<section class="section" id="gallery">
+  <h3>हमारा काम</h3>
+  <div class="gallery">
+    <div>फोटो 1</div>
+    <div>फोटो 2</div>
+    <div>फोटो 3</div>
+    <div>फोटो 4</div>
+  </div>
+  <p style="margin-top:20px; color:#888; font-size:14px;">(अपने काम की फोटो यहाँ जोड़ें)</p>
+</section>
+
+<section class="section contact" id="contact">
+  <h3>संपर्क करें</h3>
+  <div class="contact-info">
+    <div><strong>📞 फोन</strong>+91 XXXXX XXXXX</div>
+    <div><strong>💬 WhatsApp</strong>+91 XXXXX XXXXX</div>
+    <div><strong>📍 पता</strong>आपका पता यहाँ</div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Ved Graphic | All Rights Reserved
+</footer>
+
+</body>
+</html>
